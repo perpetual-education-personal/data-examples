@@ -12,9 +12,9 @@ $monsters_data = [
 		"slug" => "munchy",
 	],
 ];
-// we think of this array of associative arrays as an "anonymous" array // vs: 
+// we think of this ^ array of associative arrays as an "anonymous" array // vs: 
 
-// here where't it's an array of key value pairs - and each monster has an explicit key (which means you can access it without looking at every item in the array to find it)
+// here where't it's an array of key value pairs - and each monster has an explicit key (which means you can access it directly via that key vs iterating over the entire array to find it an item by it's id)
 $other_monsters_data = [
 	"0" => [
 		"name" => "Crunchy",
